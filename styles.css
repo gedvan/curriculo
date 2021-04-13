@@ -1,0 +1,213 @@
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 10pt;
+    line-height: 1.25;
+    padding: 0;
+    margin: 0;
+    background: white;
+    color: #4d4d4d;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* PAGE LAYOUT */
+
+#page {
+    display: flex;
+}
+@media screen {
+    #page {
+        width: 210mm;
+        height: 297mm;
+        margin: 5mm auto;
+        box-shadow: 0 1px 20px rgba(0,0,0,.25);
+    }
+}
+
+/* MAIN COLUMN */
+
+#page main {
+    flex: 1 1 auto;
+    padding: 10mm;
+}
+
+/* Header */
+
+#page main header {
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    margin: 2mm 0 8mm;
+}
+#page main header .fullname {
+    font-size: 30pt;
+    font-weight: 300;
+    margin: 0 0 1mm;
+}
+#page main header .headline {
+    font-size: 13pt;
+    text-transform: uppercase;
+}
+
+/* Sections general */
+
+#page section {
+    margin-bottom: 7.5mm;
+}
+
+#page section h2 {
+    text-transform: uppercase;
+    font-size: 10.5pt;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 4.5mm;
+    padding-left: 1px;
+}
+
+/* Sections main column */
+
+#page main section h2 {
+    color: #0a6d68;
+    border-bottom: 5px solid #e8f0ee;
+}
+
+/* Sections specifics */
+
+#page main section.objective p {
+    font-style: italic;
+}
+
+#page main section.items ul {
+    margin: 0;
+    padding: 0;
+}
+#page main section.items li {
+    display: block;
+    position: relative;
+    padding-top: 0.5mm;
+    padding-left: 19mm;
+    margin-bottom: 5mm;
+}
+#page main section.items li .period {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e8f0ee;
+    width: 16mm;
+    height: 16mm;
+    border-radius: 8mm;
+    text-align: center;
+    font-style: italic;
+    padding-top: 3.2mm;
+}
+#page main section.items li .period span {
+    display: block;
+    line-height: 1;
+}
+#page main section.items li .period span.sep {
+    line-height: .5;
+}
+#page main section.items li h3 {
+    color: #0a6d68;
+    font-size: 10.5pt;
+    margin: 0 0 1.5mm;
+}
+#page main section.items li h3 .desc {
+    color: #649592;
+    font-size: 9.5pt;
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 2mm;
+}
+#page main section.items li h4 {
+    margin: 0 0 1.5mm;
+    font-size: 10pt;
+}
+#page main section.items li p {
+    font-size: 10pt;
+    font-style: italic;
+    color: #888;
+    margin: 0;
+}
+
+/* SIDEBAR */
+
+#page aside {
+    flex: 0 0 auto;
+    width: 56mm;
+    margin-left: auto;
+    margin-right: 10mm;
+    background: #0a6d68;
+    background: linear-gradient(0deg, rgb(31 102 123) 0%, rgb(11 115 107) 100%);
+    color: #e8f0ee;
+    padding: 15mm 5mm 10mm;
+}
+
+/* Sidebar sections */
+
+#page aside section h2 {
+    border-bottom: 5px solid rgba(255,255,255,0.15);
+}
+
+/* Sidebar specifics */
+
+#page aside .foto {
+    text-align: center;
+}
+#page aside .foto img {
+    width: 37mm;
+    height: 37mm;
+    border-radius: 18.5mm;
+    border: 1mm solid #e8f0ee;
+    background: #e8f0ee;
+}
+
+#page aside section.info ul {
+    margin: 0;
+    padding: 0;
+}
+#page aside section.info li {
+    display: block;
+    margin-bottom: 3.5mm;
+}
+#page aside section.info li i {
+    margin-right: 1mm;
+    display: inline-block;
+    width: 4mm;
+    text-align: center;
+}
+
+#page aside section.skills .group {
+    margin-bottom: 3.5mm;
+}
+#page aside section.skills .group h3 {
+    margin: 0 0 1.5mm;
+    color: #8cbdba;
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: normal;
+}
+#page aside section.skills .group ul {
+    margin: 0;
+    padding-left: 5mm;
+}
+#page aside section.skills .group li {
+    list-style-type: square;
+    margin-bottom: 1mm;
+}
+#page aside section.skills .group li::marker {
+    color: #77aeab;
+}
+
+#page aside section.about p {
+    font-style: italic;
+}
