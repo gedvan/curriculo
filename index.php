@@ -9,7 +9,7 @@ $experience = [
     'position'  => 'System Analyst',
     'text'      => "Leader of the portal and usability team, that develops " .
       "and maintains the institution's websites, and specify usability " .
-      "guidelines for other systems.",
+      "guidelines for the other systems.",
   ],
   [
     'start'     => '2010',
@@ -109,7 +109,7 @@ $skills = [
 
       <section class="objective">
         <h2>Objective</h2>
-        <p>I'm looking for a inspiring and challenging job as a Drupal developer.</p>
+        <p>I'm looking for a remote part-time job as a Drupal developer.</p>
       </section>
 
       <section class="experience items">

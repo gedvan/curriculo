@@ -151,6 +151,10 @@ p {
     padding: 15mm 5mm 10mm;
 }
 
+#page aside p {
+  line-height: 1.4;
+}
+
 /* Sidebar sections */
 
 #page aside section h2 {
