@@ -59,8 +59,8 @@ p {
 
 /* Sections general */
 
-#page section {
-    margin-bottom: 7.5mm;
+#page section:not(:last-child) {
+    margin-bottom: 6mm;
 }
 
 #page section h2 {
@@ -142,23 +142,35 @@ p {
 
 #page aside {
     flex: 0 0 auto;
-    width: 56mm;
+    width: 62mm;
     margin-left: auto;
     margin-right: 10mm;
     background: #0a6d68;
     background: linear-gradient(0deg, rgb(31 102 123) 0%, rgb(11 115 107) 100%);
     color: #e8f0ee;
-    padding: 15mm 5mm 10mm;
+    padding: 10mm 5mm 0;
 }
 
 #page aside p {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 /* Sidebar sections */
 
 #page aside section h2 {
     border-bottom: 5px solid rgba(255,255,255,0.15);
+}
+
+#page aside section ul {
+    margin: 0;
+    padding-left: 5mm;
+}
+#page aside section li {
+    list-style-type: square;
+    margin-bottom: 1mm;
+}
+#page aside section li::marker {
+    color: #77aeab;
 }
 
 /* Sidebar specifics */
@@ -180,7 +192,7 @@ p {
 }
 #page aside section.info li {
     display: block;
-    margin-bottom: 3.5mm;
+    margin-bottom: 3mm;
 }
 #page aside section.info li i {
     margin-right: 1mm;
@@ -199,18 +211,12 @@ p {
     font-style: italic;
     font-weight: normal;
 }
-#page aside section.skills .group ul {
-    margin: 0;
-    padding-left: 5mm;
-}
-#page aside section.skills .group li {
-    list-style-type: square;
-    margin-bottom: 1mm;
-}
-#page aside section.skills .group li::marker {
-    color: #77aeab;
+
+#page aside section.languages em {
+    color: #8cbdba;
 }
 
 #page aside section.about p {
     font-style: italic;
+    margin-bottom: 0;
 }

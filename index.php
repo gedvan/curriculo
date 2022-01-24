@@ -7,8 +7,8 @@ $experience = [
     'title'     => 'Tribunal de Justiça da Paraíba',
     'desc'      => 'State court of justice',
     'position'  => 'System Analyst',
-    'text'      => "Leader of the portal and usability team, that develops " .
-      "and maintains the institution's websites, and specify usability " .
+    'text'      => "Head of the portal and UX team, in charge of development " .
+      "and maintenance of the institution's websites, as well as, responsible for specifying UX " .
       "guidelines for the other systems.",
   ],
   [
@@ -17,8 +17,8 @@ $experience = [
     'title'     => 'Faculdade iDez / Universidade Estácio de Sá',
     'desc'      => 'Private college',
     'position'  => 'Adjunct Professor',
-    'text'      => "Adjunct Professor at Analysis and Development of Systems " .
-      "undergraduate course, teaching subjects related to web development.",
+    'text'      => "Adjunct Professor at Systems Analysis and Development " .
+      "undergraduate program, teaching subjects related to web.",
   ],
   [
     'start'     => '2010',
@@ -27,7 +27,7 @@ $experience = [
     'desc'      => 'Federal Institute of Education, Science and Technology',
     'position'  => 'Adjunct Professor',
     'text'      => "Adjunct Professor at the technology department's " .
-      "undergraduate courses, teaching subjects related to programming " .
+      "undergraduate programs, teaching subjects related to programming " .
       "fundamentals, data structures, and web development.",
   ],
   [
@@ -36,7 +36,7 @@ $experience = [
     'title'     => 'Lexa Sistemas',
     'desc'      => 'Local software development company',
     'position'  => 'Software Engineer',
-    'text'      => "Full-stack development and maintenance of web sites and " .
+    'text'      => "Full stack development and maintenance of web sites and " .
       "applications in PHP and Drupal.",
   ],
   [
@@ -53,7 +53,7 @@ $experience = [
     'end'       => '2006',
     'title'     => 'ADM Soluções em Informática',
     'desc'      => 'Sites development company',
-    'position'  => 'Intern - Developer',
+    'position'  => 'Intern - Full stack developer',
     'text'      => "Web development using LAMP stack.",
   ],
 ];
@@ -76,11 +76,11 @@ $education = [
 ];
 
 $skills = [
-  'advanced'      => ['PHP', 'Drupal', 'HTML/CSS'],
-  'intermediate'  => ['Wordpress', 'Javascript'],
-  'beginner'      => ['Angular', 'VueJs', 'React'],
-  'related'       => ['Linux', 'Git', 'Docker', 'Composer', 'Node.js/NPM', 'Less/Sass',
-    'Bootstrap', 'SVG', 'Inkscape']
+  'advanced'      => ['PHP', 'Drupal', 'HTML/CSS/Javascript'],
+  'intermediate'  => ['Vue.js', 'Wordpress'],
+  'beginner'      => ['Angular', 'React'],
+  'related'       => ['Composer', 'Bootstrap', 'Sass/Less', 'MySQL/PostgreSQL', 'Git', 'Linux', 'Docker',
+    'Node.js', 'UI/UX', 'SVG', 'Inkscape', 'GIMP']
 ];
 
 ?>
@@ -109,7 +109,7 @@ $skills = [
 
       <section class="objective">
         <h2>Objective</h2>
-        <p>I'm looking for a remote part-time job as a Drupal developer.</p>
+        <p>I'm looking for a part-time or freelance job as Drupal developer.</p>
       </section>
 
       <section class="experience items">
@@ -178,7 +178,7 @@ $skills = [
           </li>
           <li class="phone">
             <i class="fas fa-mobile-alt"></i>
-            +55 83 98823-8356
+            +55 83 98206-8356
           </li>
         </ul>
       </section>
@@ -211,18 +211,26 @@ $skills = [
         </div>
         <div class="group related">
           <h3>Related</h3>
-          <p><?= implode(', ', $skills['related']) ?></p>
+          <p><?= implode(', ', $skills['related']) ?>.</p>
         </div>
+      </section>
+
+      <section class="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>Portuguese <em>(native)</em></li>
+          <li>English <em>(intermediate)</em></li>
+        </ul>
       </section>
 
       <section class="about">
         <h2>About me</h2>
         <p>
-          I'm a software developer with 15 years of experience in web
-          development, mainly with PHP. I've been using Drupal for ten
-          years, and during this time I've got a good expertise in site
-          building, theming and module development. I also have several years
-          of practice in frontend coding with JS and CSS.
+          I am a software developer with more 15 years of experience in web
+          development, mainly with PHP. I have been using Drupal for ten
+          years, and during this time I have acquired a good expertise in site
+          building, theming and module development. Furthermore, I have several years
+          of practice in front end coding with JS and CSS.
         </p>
       </section>
 
