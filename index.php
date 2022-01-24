@@ -7,7 +7,7 @@ $experience = [
     'title'     => 'Tribunal de Justiça da Paraíba',
     'desc'      => 'State court of justice',
     'position'  => 'System Analyst',
-    'text'      => "Head of the portal and UX team, in charge of development " .
+    'text'      => "Head of the portals and UX team, in charge of development " .
       "and maintenance of the institution's websites, as well as, responsible for specifying UX " .
       "guidelines for the other systems.",
   ],
@@ -52,7 +52,7 @@ $experience = [
     'start'     => '2005',
     'end'       => '2006',
     'title'     => 'ADM Soluções em Informática',
-    'desc'      => 'Sites development company',
+    'desc'      => 'Web development company',
     'position'  => 'Intern - Full stack developer',
     'text'      => "Web development using LAMP stack.",
   ],
@@ -65,7 +65,7 @@ $education = [
     'title' => "Master's Degree, Informatics",
     'place' => "Universidade Federal da Paraíba",
     'text'  => "Development of an interactive virtual reality software to " .
-      "support learning of image classification algorithms.",
+      "support learning of image classification algorithms (Java Swing + OpenGL).",
   ],
   [
     'start' => '2002',
@@ -79,8 +79,8 @@ $skills = [
   'advanced'      => ['PHP', 'Drupal', 'HTML/CSS/Javascript'],
   'intermediate'  => ['Vue.js', 'Wordpress'],
   'beginner'      => ['Angular', 'React'],
-  'related'       => ['Composer', 'Bootstrap', 'Sass/Less', 'MySQL/PostgreSQL', 'Git', 'Linux', 'Docker',
-    'Node.js', 'UI/UX', 'SVG', 'Inkscape', 'GIMP']
+  'related'       => ['Sass/Less', 'Bootstrap', 'Git', 'Linux', 'Docker', 'Node.js', 
+    'Composer', 'MySQL/PostgreSQL', 'UI/UX', 'SVG', 'Inkscape', 'GIMP']
 ];
 
 ?>
@@ -109,7 +109,7 @@ $skills = [
 
       <section class="objective">
         <h2>Objective</h2>
-        <p>I'm looking for a part-time or freelance job as Drupal developer.</p>
+        <p>I'm looking for a challenging and inspiring job as PHP/Drupal developer.</p>
       </section>
 
       <section class="experience items">
@@ -170,11 +170,11 @@ $skills = [
           </li>
           <li class="github">
             <i class="fab fa-github"></i>
-            github.com/gedvan
+            <a href="https://github.com/gedvan">github.com/gedvan</a>
           </li>
           <li class="linkedin">
             <i class="fab fa-linkedin-in"></i>
-            linkedin.com/in/gedvan
+            <a href="https://www.linkedin.com/in/gedvan/">linkedin.com/in/gedvan</a>
           </li>
           <li class="phone">
             <i class="fas fa-mobile-alt"></i>
