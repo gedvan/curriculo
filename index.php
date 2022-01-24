@@ -7,7 +7,7 @@ $experience = [
     'title'     => 'Tribunal de Justiça da Paraíba',
     'desc'      => 'State court of justice',
     'position'  => 'System Analyst',
-    'text'      => "Head of the portal and UX team, in charge of development " .
+    'text'      => "Head of the portals and UX team, in charge of development " .
       "and maintenance of the institution's websites, as well as, responsible for specifying UX " .
       "guidelines for the other systems.",
   ],
@@ -52,7 +52,7 @@ $experience = [
     'start'     => '2005',
     'end'       => '2006',
     'title'     => 'ADM Soluções em Informática',
-    'desc'      => 'Sites development company',
+    'desc'      => 'Web development company',
     'position'  => 'Intern - Full stack developer',
     'text'      => "Web development using LAMP stack.",
   ],
@@ -65,7 +65,7 @@ $education = [
     'title' => "Master's Degree, Informatics",
     'place' => "Universidade Federal da Paraíba",
     'text'  => "Development of an interactive virtual reality software to " .
-      "support learning of image classification algorithms.",
+      "support learning of image classification algorithms (Java Swing + OpenGL).",
   ],
   [
     'start' => '2002',
@@ -79,8 +79,8 @@ $skills = [
   'advanced'      => ['PHP', 'Drupal', 'HTML/CSS/Javascript'],
   'intermediate'  => ['Vue.js', 'Wordpress'],
   'beginner'      => ['Angular', 'React'],
-  'related'       => ['Composer', 'Bootstrap', 'Sass/Less', 'MySQL/PostgreSQL', 'Git', 'Linux', 'Docker',
-    'Node.js', 'UI/UX', 'SVG', 'Inkscape', 'GIMP']
+  'related'       => ['Sass/Less', 'Bootstrap', 'Git', 'Linux', 'Docker', 'Node.js', 
+    'Composer', 'MySQL/PostgreSQL', 'UI/UX', 'SVG', 'Inkscape', 'GIMP']
 ];
 
 ?>
@@ -104,12 +104,12 @@ $skills = [
 
       <header>
         <h1 class="fullname">Gedvan Pereira Dias</h1>
-        <div class="headline">PHP/Drupal Full-Stack Developer</div>
+        <div class="headline">Full-Stack Developer</div>
       </header>
 
       <section class="objective">
         <h2>Objective</h2>
-        <p>I'm looking for a part-time or freelance job as Drupal developer.</p>
+        <p>I'm looking for a challenging and inspiring job as front end developer.</p>
       </section>
 
       <section class="experience items">
@@ -170,11 +170,11 @@ $skills = [
           </li>
           <li class="github">
             <i class="fab fa-github"></i>
-            github.com/gedvan
+            <a href="https://github.com/gedvan">github.com/gedvan</a>
           </li>
           <li class="linkedin">
             <i class="fab fa-linkedin-in"></i>
-            linkedin.com/in/gedvan
+            <a href="https://www.linkedin.com/in/gedvan/">linkedin.com/in/gedvan</a>
           </li>
           <li class="phone">
             <i class="fas fa-mobile-alt"></i>
@@ -226,11 +226,11 @@ $skills = [
       <section class="about">
         <h2>About me</h2>
         <p>
-          I am a software developer with more 15 years of experience in web
-          development, mainly with PHP. I have been using Drupal for ten
-          years, and during this time I have acquired a good expertise in site
-          building, theming and module development. Furthermore, I have several years
-          of practice in front end coding with JS and CSS.
+          I am a software developer with more than 15 years of experience in web
+          development. In the back end, I have used mostly PHP and Drupal. In the front,
+          I can say I have a valuable experience with HTML, CSS and Javascript, since
+          the first AJAX steps in the 00's, passing through JQuery era, ES2015+, and now the
+          modern MVVM frameworks.
         </p>
       </section>
 

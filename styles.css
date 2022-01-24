@@ -23,11 +23,11 @@ p {
 
 #page {
     display: flex;
+    width: 210mm;
+    height: 297mm;
 }
 @media screen {
     #page {
-        width: 210mm;
-        height: 297mm;
         margin: 5mm auto;
         box-shadow: 0 1px 20px rgba(0,0,0,.25);
     }
@@ -37,7 +37,7 @@ p {
 
 #page main {
     flex: 1 1 auto;
-    padding: 10mm;
+    padding: 10mm 10mm 0;
 }
 
 /* Header */
@@ -118,7 +118,7 @@ p {
 #page main section.items li h3 {
     color: #0a6d68;
     font-size: 10.5pt;
-    margin: 0 0 1.5mm;
+    margin: 0 0 1mm;
 }
 #page main section.items li h3 .desc {
     color: #649592;
@@ -128,8 +128,9 @@ p {
     margin-left: 2mm;
 }
 #page main section.items li h4 {
-    margin: 0 0 1.5mm;
-    font-size: 10pt;
+    margin: 0 0 1mm;
+    font-size: 9pt;
+    text-transform: uppercase;
 }
 #page main section.items li p {
     font-size: 10pt;
@@ -153,6 +154,14 @@ p {
 
 #page aside p {
   line-height: 1.5;
+}
+
+#page aside a {
+    color: #e8f0ee;
+    text-decoration: none;
+}
+#page aside a:hover {
+    text-decoration: underline;
 }
 
 /* Sidebar sections */
